@@ -1,6 +1,6 @@
-name: "TOML Editor V2"
-description: "Edit a Table/Key in a given TOML file."
-author: "ciii"
+name: "Simple TOML Editor"
+description: "Quickly edit a key within in a given TOML file."
+author: "rahulp959"
 branding:
   icon: "file"
   color: "blue"
@@ -9,10 +9,10 @@ inputs:
     description: "The relative path of toml file"
     required: true
   key:
-    description: "Key need to modify"
+    description: "The key you're modifying"
     required: true
   value:
-    description: "Value to set"
+    description: "The value to be set"
     required: true
 
 runs:
